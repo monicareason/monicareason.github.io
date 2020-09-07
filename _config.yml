@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'The Reason For Being'
+description: 'An online portfolio and source of information about Monica Reason.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+disqus: ''
+email: 'monicareason393@gmail.com'
+mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
@@ -19,21 +19,12 @@ plugins:
   - jekyll-seo-tag
 
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    monica:
+      name:           Monica
+      site:           https://monicareason.github.io/
+      avatar:         assets/images/avatar_monica.jpg
+      bio:            "Hey I'm Monica! I started this blog as a way to showcase not only my marketing consulting portfolio but also my passion for food and travel. In my spare time, I try to contribute to various marketing (particularly product marketing) engagements and research new trends in the market, so this is a space for me to showcase my portfolio and thought leadership pieces on emerging trends of interest. I also hope to use this space to share my love of travel and food with the world. Being a  planner, my friends and family know they can rely on me for the best travel itineraries, tips, and tricks. My friends and family also rely on me for amazing food as I love to immerse myself in the kitchen, experimenting with different cooking and baking methods. I hope you enjoy my content and thank you for visiting!"
+      email:          monicareason393@gmail.com
 
 # Defaults
 defaults:
@@ -43,8 +34,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: monica
+      avatar: assets/images/avatar_monica.jpg
 
   # all pages
   - scope:
@@ -58,8 +49,6 @@ highlighter: rouge
 
 # Paginate
 paginate: 10
-
-
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, vendor]
